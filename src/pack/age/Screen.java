@@ -5,15 +5,17 @@
 package pack.age;
 import java.awt.Frame;
 import java.awt.*;
+import javax.swing.JFrame;
 /**
  *
  * @author Admin
  */
-public class Screen extends Frame
+public class Screen extends JFrame
 {
-    Frame frame = new Frame();
+    JFrame frame;
     public Screen()
     {
+        frame = new JFrame();
         frame.setEnabled(true);
     }
     
