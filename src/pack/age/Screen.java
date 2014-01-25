@@ -16,7 +16,8 @@ public class Screen extends JFrame
     public Screen()
     {
         frame = new JFrame();
-        frame.setEnabled(true);
+        frame.setSize(500, 500);
+        frame.setVisible(true);
     }
     
     public static void main(String[] args)
