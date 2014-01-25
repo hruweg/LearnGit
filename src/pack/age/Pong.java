@@ -5,25 +5,26 @@
 package pack.age;
 import java.awt.Frame;
 import java.awt.*;
+import java.awt.event.WindowEvent;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 /**
  *
  * @author Admin
  */
-public class Screen extends JFrame
+public class Pong
 {
     JFrame frame;
-    public Screen()
+    public Pong()
     {
         frame = new JFrame();
         frame.setSize(500, 500);
         frame.setVisible(true);
-        frame.add(new JButton());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-    
+
     public static void main(String[] args)
     {
-        Screen screen = new Screen();
+        new Pong();
     }
 }
